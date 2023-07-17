@@ -8,7 +8,7 @@ const CarMapPage = () => {
     <div>
 
       <div className="car-video-container">
-        <video className="r2svid" autoPlay loop muted>
+        <video className="r1svid" autoPlay loop muted>
           <source src={carVideo} type="video/mp4" />
         </video>
         
@@ -22,7 +22,6 @@ const CarMapPage = () => {
                 <p className="battery">82%</p>
             </div>
         </div>
-
       </div>
 
       <div className="map-container">
