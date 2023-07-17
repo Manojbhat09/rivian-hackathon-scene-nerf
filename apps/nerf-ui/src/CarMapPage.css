@@ -21,11 +21,11 @@
   .static-image {
     position: absolute;
     bottom: 0;
-    right: 200px;
-    left: 560px;
-    width: 60%;
+    right: 180px;
+    left: 630px;
+    width: 50%;
     height: 20vh;
-    object-fit: fill;
+    object-fit:fill;
     border-radius: 10px;
   }
   
@@ -42,7 +42,8 @@
   
   .subpanel-container p {
     margin: 0;
-    font-size: 16px;
+    font-size: 50px;
+    font-family: 'Lunasima', sans-serif;
   }
   
   .mph-container {
@@ -51,12 +52,12 @@
   }
   
   .speed {
-    font-size: 24px;
+    font-size: 500px;
     font-weight: bold;
   }
 
   .mph {
-    font-size: 18px;
+    font-size: 400px;
   }
   
   .status-container {
