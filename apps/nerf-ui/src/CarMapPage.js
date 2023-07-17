@@ -1,5 +1,6 @@
 import React from 'react';
 import carVideo from './r1svid.mp4';
+import Map from './Map';
 
 const CarMapPage = () => {
   return (
@@ -10,7 +11,7 @@ const CarMapPage = () => {
         </video>
       </div>
       <div className="map-container">
-        <img src="/map.jpg" alt="Map" />
+        <Map />
       </div>
     </div>
   );
