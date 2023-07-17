@@ -1,5 +1,5 @@
 .car-video-container {
-    width: 33.33%;
+    width: 40%;
     float: left;
     height: 100vh;
     overflow: hidden;
@@ -9,10 +9,11 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+    margin-top: -25%;
   }
   
   .map-container {
-    width: 66.67%;
+    width: 60%;
     float: left;
     height: 100vh;
     overflow: hidden;
@@ -20,22 +21,23 @@
 
   .static-image {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     right: 180px;
-    left: 630px;
+    left: 690px;
     width: 50%;
     height: 20vh;
     object-fit:fill;
     border-radius: 10px;
+    opacity: 0.9;
   }
   
   .subpanel-container {
-    width: 30%;
+    width: 35%;
     height: 20%;
     background-color: #5e5d63;
     position: absolute;
     top: 10px;
-    left: 25px;
+    left: 35px;
     padding: 10px;
     box-sizing: border-box;
     border-radius: 10px;
@@ -80,4 +82,40 @@
     font-size: 30px;
     font-weight: lighter;
     color:aliceblue;
+  }
+
+  .aux-container {
+    width: 50%;
+    height: 10%;
+    background-color: #5e5d63;
+    position: absolute;
+    top: 10px;
+    left: 690px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .time {
+    font-size: 25px;
+    font-weight: lighter;
+    color:aliceblue;
+    align-self: center;
+  }
+
+  .temperature {
+    font-size: 25px;
+    font-weight: lighter;
+    color:aliceblue;
+    align-self: center;
+  }
+
+  .user {
+    font-size: 25px;
+    font-weight: lighter;
+    color:aliceblue;
+    align-self: center;
   }
