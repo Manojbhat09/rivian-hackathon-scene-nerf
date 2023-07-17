@@ -1,0 +1,69 @@
+.car-video-container {
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    overflow: relative;
+  }
+  
+  .car-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .map-container {
+    width: 66.67%;
+    float: left;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .map-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .subpanel-container {
+    width: 33.33%;
+    height: 20%;
+    background-color: #f5f5f5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .subpanel-container p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .mph-container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .speed {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .mph {
+    font-size: 18px;
+  }
+  
+  .status-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .prndl {
+    font-size: 18px;
+  }
+  
+  .battery {
+    font-size: 18px;
+  }
+  
